@@ -54,8 +54,7 @@ Open the border router HTML interface with a webbrowser (IP should be [aaaa::200
 这里简单提一下，CoAP个人理解就是低电不靠谱环境下的（很多时候用在IOT）类似于HTTP的应用层的协议，模式是REST，就是把各种东西（比如常规的数据、或者操
 作、传感器都可以）资源化，然后用GET\PUT\POST\DELECT之类的 操作去完成特定的功能；
 
-然后MQTT就是一个发布、订阅模式的信息传递应用层协议，中间的东西叫broker，前后发布有发布者和订阅者，有3个级别的QoS,分别是发布者发布一条消息时，订阅者
-最多收到一条、最少收到一条、正好就收到一条，contiki例子里完成了QoS0和1，github里有dalao写了更完善的MQTT库，完成了QoS2，这个之后应该会稍微研究下。
+然后MQTT就是一个发布、订阅模式的信息传递应用层协议，中间的东西叫broker，前后分别有发布者和订阅者，有3个级别的QoS,即：分别是发布者发布一条消息时，订阅者最多收到一条、最少收到一条、正好就收到一条，contiki例子里完成了QoS0和1，github里有dalao写了更完善的MQTT库，完成了QoS2，这个之后应该会稍微研究下。
 
 ===============
 暂时就酱。
