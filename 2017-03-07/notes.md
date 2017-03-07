@@ -43,6 +43,7 @@ Open the border router HTML interface with a webbrowser (IP should be [aaaa::200
 
 ==========
 
+
 然后是几个常见的应用类型，在contiki的examples里有示例代码的，
 
 最简单的比如mote之间的连接传输信息、定时触发sensor收集数据、udp广播、TCP连接；
@@ -55,5 +56,6 @@ Open the border router HTML interface with a webbrowser (IP should be [aaaa::200
 
 然后MQTT就是一个发布、订阅模式的信息传递应用层协议，中间的东西叫broker，前后发布有发布者和订阅者，有3个级别的QoS,分别是发布者发布一条消息时，订阅者
 最多收到一条、最少收到一条、正好就收到一条，contiki例子里完成了QoS0和1，github里有dalao写了更完善的MQTT库，完成了QoS2，这个之后应该会稍微研究下。
+
 ===============
 暂时就酱。
